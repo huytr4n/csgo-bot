@@ -9,3 +9,5 @@ In order to build & up server you need to install docker in your machine
 ## Dev
     docker-compose build
     docker-compose up
+
+Go to http://localhost:5000/ to see the server is up.

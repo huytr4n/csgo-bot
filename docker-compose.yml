@@ -2,6 +2,9 @@ version: '2'
 services:
   app:
     build: .
-    command: python app.py
+    command: flask run --host=0.0.0.0
     ports:
       - 5000:5000
+    environment:
+      - FLASK_APP=app.py
+      - FLASK_DEBUG=1
