@@ -1,7 +1,9 @@
 # A BOT to crawl CSGO result pages
 
 # Requirements
-docker installed
+In order to build & up server you need to install docker in your machine
+
+[Docker](https://www.docker.com/products/overview)
 
 # RUN
 ## Dev
